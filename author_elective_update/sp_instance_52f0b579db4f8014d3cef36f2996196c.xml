@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="6">1af0b579db4f8014d3cef36f2996196a</sp_column>
+        <sp_widget display_value="test_O2_royS">78c082c1dbc34cd0d3cef36f299619f5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:49:46</sys_created_on>
+        <sys_id>52f0b579db4f8014d3cef36f2996196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sp_instance_52f0b579db4f8014d3cef36f2996196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:49:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=52f0b579db4f8014d3cef36f2996196c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>6f6b6d30db6e1f80ff27d5b0cf96194c</instance_id>
+        <instance_name>dev60580</instance_name>
+        <name>sp_instance_52f0b579db4f8014d3cef36f2996196c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="6">1af0b579db4f8014d3cef36f2996196a</sp_column><sp_widget display_value="test_O2_royS">78c082c1dbc34cd0d3cef36f299619f5</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 08:49:46</sys_created_on><sys_id>52f0b579db4f8014d3cef36f2996196c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sp_instance_52f0b579db4f8014d3cef36f2996196c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 08:49:46</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=52f0b579db4f8014d3cef36f2996196c"/></record_update>]]></payload>
+        <payload_hash>-2141243088</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:49:46</sys_created_on>
+        <sys_id>5af0b579db4f8014d3cef36f2996196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705ca38ad00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:49:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>52f0b579c94f8014802a3a431204836d</update_guid>
+        <update_guid_history>52f0b579c94f8014802a3a431204836d:-2141243088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">efc379fddb4f8014d3cef36f299619fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 09:02:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4acb84a977f84a0780d8be6eaa2951d1</sys_id>
+        <sys_metadata>52f0b579db4f8014d3cef36f2996196c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sp_instance_52f0b579db4f8014d3cef36f2996196c</sys_update_name>
+        <sys_update_version display_value="sp_instance_52f0b579db4f8014d3cef36f2996196c">5af0b579db4f8014d3cef36f2996196d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 09:02:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

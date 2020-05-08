@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="FlowOperation" max_length="40" name="x_405103_owaspauto_flowoperation" type="collection">
+        <element label="FromDirectory" max_length="500" name="fromdirectory" type="string"/>
+        <element label="FromServer" max_length="40" name="fromserver" type="string"/>
+        <element label="ToDirectory" max_length="500" name="getdirectory" type="string"/>
+        <element label="MIDServer" max_length="40" name="midserver" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="ProjectName" max_length="100" name="projectname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="status" type="string"/>
+        <element label="ToServer" max_length="40" name="toserver" type="string"/>
+    </element>
+</database>

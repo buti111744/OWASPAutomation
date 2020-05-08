@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>testJSON</name>
+        <order>100</order>
+        <roles>x_405103_owaspauto.testjson_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 01:29:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94106143dbb500d0df2da455ca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testJSON</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_app_application_94106143dbb500d0df2da455ca9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 01:29:50</sys_updated_on>
+        <title>testJSON</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_app_application_94106143dbb500d0df2da455ca9619db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>testJSON</name><order>100</order><roles>x_405103_owaspauto.testjson_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 01:29:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>94106143dbb500d0df2da455ca9619db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>testJSON</sys_name><sys_overrides/><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_app_application_94106143dbb500d0df2da455ca9619db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 01:29:50</sys_updated_on><title>testJSON</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-372087688</payload_hash>
+        <record_name>testJSON</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 01:29:50</sys_created_on>
+        <sys_id>94106143dbb500d0df2da455ca9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f305fec9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 01:29:50</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>dc106143e8b500d0ca0897c2716814dd</update_guid>
+        <update_guid_history>dc106143e8b500d0ca0897c2716814dd:-372087688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="testJSON">835da451db3ecc50d3cef36f2996194f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 04:21:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>76250e398d3f4730906fc0cf06a48bf1</sys_id>
+        <sys_metadata>94106143dbb500d0df2da455ca9619db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testJSON</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_app_application_94106143dbb500d0df2da455ca9619db</sys_update_name>
+        <sys_update_version display_value="sys_app_application_94106143dbb500d0df2da455ca9619db">94106143dbb500d0df2da455ca9619de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 04:21:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

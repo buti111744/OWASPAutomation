@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="AdditionalInfomation" label="AdditionalInfomation" language="en" table="var__m_sys_hub_step_ext_input_e42585badb124850d3cef36f2996190a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>AdditionalInfomation</element>
+            <help/>
+            <hint/>
+            <label>AdditionalInfomation</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_input_e42585badb124850d3cef36f2996190a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-16 01:25:04</sys_created_on>
+            <sys_id>ac2585badb124850d3cef36f29961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AdditionalInfomation</sys_name>
+            <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_input_e42585badb124850d3cef36f2996190a_AdditionalInfomation_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-16 01:25:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

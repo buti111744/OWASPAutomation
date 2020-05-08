@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_405103_owaspauto_demo_odc_main" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>datatime</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>c59b4a4edb314890df2da455ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>evidence</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>8d9b428edb314890df2da455ca9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>file_name</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>019b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>file_path</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>819b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>identifiers</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>059b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>license</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>859b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>related_dependencies</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>099b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vulnerabilities_cvssv2_score</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>899b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vulnerabilities_cvssv2_severity</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>0d9b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vulnerabilities_name</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">819b4a4edb314890df2da455ca9619d5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_id>8d9b428edb314890df2da455ca9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_405103_owaspauto_demo_odc_main</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-20 02:06:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>819b4a4edb314890df2da455ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_405103_owaspauto_demo_odc_main</sys_name>
+            <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+            <sys_update_name>sys_ui_list_x_405103_owaspauto_demo_odc_main_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-20 02:06:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_405103_owaspauto.test111_ctrl</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>test111_ctrl</name>
+        <script><![CDATA[var test111_ctrl = Class.create();
+test111_ctrl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	//initialize:   //このinitializeは初期起動時に利用されるインクルードのため、値が渡ってこない仕様でした。
+    insertTable: function() {
+        var SS = this.getParameter('sysparm_froms');
+        var DD = this.getParameter('sysparm_fromd');
+		gs.info(SS);
+        var gr = new GlideRecord('x_405103_owaspauto_flowoperation');
+        gr.initialize();
+        gr.name = "Job3";
+        gr.status = "in process";
+        gr.fromserver = SS;
+        gr.fromdirectory = DD;
+        gr.toserver = "10.1.8.50";
+        gr.getdirectory = "/opt/owasp/DependencyCheck2/";
+        gr.insert();
+
+        return gr.name;
+    },
+
+    type: 'owaspget_ctrl'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 04:29:55</sys_created_on>
+        <sys_id>6b8c4bb2db2dcc10df2da455ca9619b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test111_ctrl</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_script_include_6b8c4bb2db2dcc10df2da455ca9619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 08:16:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

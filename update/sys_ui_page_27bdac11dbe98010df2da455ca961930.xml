@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var app = angular.module('demoApp', []);
+app.controller('DemoController', function($scope) {
+
+    /**画面開いた直後にプルダウンメニュー取得の関数実行**/
+    insertpuldown();
+
+
+    function insertpuldown() {
+        /** 経由するMIDサーバー名 のプルダウンメニューをテーブルから取得する**/
+        var ga = new GlideAjax("owaspget_ctrl");
+        ga.addParam('sysparm_name', 'getMIDS');
+        ga.getXML(Response);
+
+        function Response(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            var answerJ = JSON.parse(answer);
+            $scope.MIDSs = answerJ;
+        }
+
+
+        /** 取得先の絶対パス のプルダウンメニューをテーブルから取得する**/
+        var ga2 = new GlideAjax("owaspget_ctrl");
+        ga2.addParam('sysparm_name', 'getLinuxS');
+        ga2.getXML(Response2);
+
+        function Response2(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            var answerJ = JSON.parse(answer);
+            $scope.serverSs = answerJ;
+            //alert(answer);//JSON文字列
+            //alert(answerJ);//JSON型
+            $scope.$apply(); //再描画
+        }
+    }
+
+    /**クリックしたらレコード追加（追加後はフローが作動）**/
+    $scope.click = function() {
+        var FM = $scope.FormMS; //経由するMIDサーバ名
+        var FS = $scope.FormLS; //取得先の絶対パス
+        var FD = $scope.FromD; //取得先のディレクトリ名
+		var PJN = $scope.FormPJN; //プロジェクト名
+
+        var ga = new GlideAjax('owaspget_ctrl');
+        ga.addParam('sysparm_name', 'insertTable');
+        ga.addParam('sysparm_fromm', "" + FM);
+        ga.addParam('sysparm_froms', "" + FS);
+        ga.addParam('sysparm_fromd', "" + FD);
+		ga.addParam('sysparm_pjname', "" + PJN);
+        ga.getXML(Response);
+
+        function Response(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            alert("脆弱性診断を実行します。（5分程時間がかかります）");
+        }
+    };
+
+});]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_405103_owaspauto_demo_owaspget.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<style type="text/css">
+		select {
+			width: 250px; 
+		}
+		input[type="text"] {
+			width: 400px;
+			height: 30px;
+		}
+		select input{
+			margin-left: .15em;
+		}
+		input[type="button"] {
+			margin-top: 10px;
+			margin-left: 230px;
+		}
+		label {
+			display: inline-block;
+			width: 220px;
+			text-align: right;
+			margin-left: .5em;
+		}
+	</style>
+	
+	<div ng-app="demoApp">
+		<div ng-controller="DemoController">
+			<p></p><p></p>
+			<form name ="inputForm">
+				<!-- <p><h1>リカバリジョブ一覧</h1><br/></p> -->
+				<!-- <p>取得先のサーバー名:   <input type ="text" ng-init='FromS="10.1.8.15"' ng-model="FromS"/>  </p> -->
+				<p><label name="MID">経由するMIDサーバ名： </label>
+				<select ng-model="FormMS" ng-options="ms.ip_address as ms.name for ms in MIDSs">
+					<option value=''>---</option>
+				</select></p>
+				
+				<p><label name="LServer">スキャン対象のサーバ名： </label>
+				<select ng-model="FormLS" ng-options="ls.ip_address as ls.name for ls in serverSs">
+					<option value=''>---</option>
+				</select></p>
+				
+				<p><label name="LDirectory">スキャン対象の
+					プロジェクトパス：  </label>
+					<input type ="text" ng-init='FromD="/opt/vuls/owasp/project/ManufacturingSpace-master.zip"' ng-model="FromD"/>  </p>
+				
+				<p><label name="PJname">プロジェクト名： </label>
+					<input type="text" ng-model = "FormPJN" ng-init='FormPJN="ManufacturingSpace"'/></p>
+				
+				<p>   <input type ="button" value="脆弱性チェック実行" ng-click="click()"/></p>
+			</form>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>demo_owaspget</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-05 01:06:08</sys_created_on>
+        <sys_id>27bdac11dbe98010df2da455ca961930</sys_id>
+        <sys_mod_count>84</sys_mod_count>
+        <sys_name>demo_owaspget</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_ui_page_27bdac11dbe98010df2da455ca961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-17 05:03:28</sys_updated_on>
+    </sys_ui_page>
+</record_update>

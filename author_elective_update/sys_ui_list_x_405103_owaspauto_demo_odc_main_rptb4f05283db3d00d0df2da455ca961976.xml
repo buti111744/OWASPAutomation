@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_405103_owaspauto_demo_odc_main" version="2" view="RPTb4f05283db3d00d0df2da455ca961976">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="81e2a607dbbd00d0df2da455ca96193f">81e2a607dbbd00d0df2da455ca961940</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-23 06:21:48</sys_created_on>
+            <sys_id>8de2a607dbbd00d0df2da455ca961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-23 06:21:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="81e2a607dbbd00d0df2da455ca96193f">81e2a607dbbd00d0df2da455ca961940</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-23 06:21:48</sys_created_on>
+            <sys_id>05e2a607dbbd00d0df2da455ca961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-23 06:21:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_405103_owaspauto_demo_odc_main</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-23 06:21:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81e2a607dbbd00d0df2da455ca961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_405103_owaspauto_demo_odc_main</sys_name>
+            <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+            <sys_update_name>sys_ui_list_x_405103_owaspauto_demo_odc_main_RPTb4f05283db3d00d0df2da455ca961976</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-23 06:21:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptb4f05283db3d00d0df2da455ca961976" name="RPTb4f05283db3d00d0df2da455ca961976">81e2a607dbbd00d0df2da455ca96193f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_ui_list_x_405103_owaspauto_demo_odc_main_RPTb4f05283db3d00d0df2da455ca961976</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_405103_owaspauto_demo_odc_main" version="2" view="RPTb4f05283db3d00d0df2da455ca961976"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="81e2a607dbbd00d0df2da455ca96193f">81e2a607dbbd00d0df2da455ca961940</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 06:21:48</sys_created_on><sys_id>8de2a607dbbd00d0df2da455ca961940</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 06:21:48</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_by</element><list_id display_value="x_405103_owaspauto_demo_odc_main" element="NULL" name="x_405103_owaspauto_demo_odc_main" parent="NULL" relationship="NULL" sys_domain="global" view="81e2a607dbbd00d0df2da455ca96193f">81e2a607dbbd00d0df2da455ca961940</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 06:21:48</sys_created_on><sys_id>05e2a607dbbd00d0df2da455ca961941</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 06:21:48</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_405103_owaspauto_demo_odc_main</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 06:21:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>81e2a607dbbd00d0df2da455ca961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_405103_owaspauto_demo_odc_main</sys_name><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_ui_list_x_405103_owaspauto_demo_odc_main_RPTb4f05283db3d00d0df2da455ca961976</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 06:21:48</sys_updated_on><sys_user/><view display_value="Rptb4f05283db3d00d0df2da455ca961976" name="RPTb4f05283db3d00d0df2da455ca961976">81e2a607dbbd00d0df2da455ca96193f</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1356060468</payload_hash>
+        <record_name>Demo_ODC_main</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 06:21:48</sys_created_on>
+        <sys_id>01e2aa47dbbd00d0df2da455ca961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f316b38bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 06:21:48</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>09e2a60747bd00d08d577e6e0dadcf42</update_guid>
+        <update_guid_history>09e2a60747bd00d08d577e6e0dadcf42:1356060468</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 07:05:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>59eebee3f7fb42e5a9ac04f0d4e56d91</sys_id>
+        <sys_metadata>81e2a607dbbd00d0df2da455ca961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_405103_owaspauto_demo_odc_main</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent display_value="Demo_ODC_main">606656f1dbf1c490df2da455ca96192a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_405103_owaspauto_demo_odc_main_RPTb4f05283db3d00d0df2da455ca961976</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_405103_owaspauto_demo_odc_main_RPTb4f05283db3d00d0df2da455ca961976">01e2aa47dbbd00d0df2da455ca961960</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 07:05:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

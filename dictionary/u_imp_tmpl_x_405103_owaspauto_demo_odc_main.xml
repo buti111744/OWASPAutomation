@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 405103 Owaspauto Demo Odc Main" max_length="40" name="u_imp_tmpl_x_405103_owaspauto_demo_odc_main" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DataTime" label="DataTime" max_length="40" name="u_datatime" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Evidence" label="Evidence" max_length="1000000" name="u_evidence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=File Name" label="File Name" max_length="500" name="u_file_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=File Path" label="File Path" max_length="500" name="u_file_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FromServer" max_length="40" name="u_fromserver" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Identifiers" label="Identifiers" max_length="1000000" name="u_identifiers" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=License" label="License" max_length="1000000" name="u_license" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Related Dependencies" label="Related Dependencies" max_length="1000000" name="u_related_dependencies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="import_attribute_name=Vulnerabilities CVSS_Score" label="Vulnerabilities CVSS_Score" max_length="38" name="u_vulnerabilities_cvss_score" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vulnerabilities_Name" label="Vulnerabilities_Name" max_length="40" name="u_vulnerabilities_name" type="string"/>
+        <element label="Vulnerabilities CVSS_Score_report" max_length="40" name="u_vulnerabilit_s_score_report" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vulnerabilities CVSS_Severity" label="Vulnerabilities CVSS_Severity" max_length="40" name="u_vulnerabilit__cvss_severity" type="string"/>
+    </element>
+</database>

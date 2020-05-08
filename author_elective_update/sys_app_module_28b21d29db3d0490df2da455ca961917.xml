@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="test1">60b21d29db3d0490df2da455ca961914</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>test1s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_405103_owaspauto_test1</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_405103_owaspauto.test1_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 08:40:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28b21d29db3d0490df2da455ca961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_app_module_28b21d29db3d0490df2da455ca961917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 08:40:31</sys_updated_on>
+        <timeline_page/>
+        <title>test1s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_app_module_28b21d29db3d0490df2da455ca961917</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="test1">60b21d29db3d0490df2da455ca961914</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>test1s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_405103_owaspauto_test1</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_405103_owaspauto.test1_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-18 08:40:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>28b21d29db3d0490df2da455ca961917</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test1s</sys_name><sys_overrides/><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_app_module_28b21d29db3d0490df2da455ca961917</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-18 08:40:31</sys_updated_on><timeline_page/><title>test1s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1420917106</payload_hash>
+        <record_name>test1s</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 08:40:31</sys_created_on>
+        <sys_id>68b21d29db3d0490df2da455ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f182a6e530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 08:40:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a0b21d290d3d0490b188d6be8c411a1a</update_guid>
+        <update_guid_history>a0b21d290d3d0490b188d6be8c411a1a:1420917106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test1s">a25652f1dbf1c490df2da455ca9619d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 08:14:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4755502023824faa8e87407ec1c02939</sys_id>
+        <sys_metadata>28b21d29db3d0490df2da455ca961917</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1s</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_app_module_28b21d29db3d0490df2da455ca961917</sys_update_name>
+        <sys_update_version display_value="sys_app_module_28b21d29db3d0490df2da455ca961917">68b21d29db3d0490df2da455ca96191a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 08:14:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

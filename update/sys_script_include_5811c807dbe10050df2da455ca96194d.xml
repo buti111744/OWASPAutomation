@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_405103_owaspauto.test112_ctrl</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>test112_ctrl</name>
+        <script><![CDATA[var test112_ctrl = Class.create();
+test112_ctrl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    //initialize:   //このinitializeは初期起動時に利用されるインクルードのため、値が渡ってこない仕様でした。
+
+    getMIDS: function() {
+        var result = [];
+        var mid = new GlideRecord("ecc_agent");
+        mid.orderBy('name');
+        mid.query();
+        var i = 1;
+        while (mid.next()) {
+            result.push({
+                num: i,
+                name: mid.getValue('name'),
+                ip_address: mid.getValue('ip_address')
+            });
+            i++;
+        }
+        var js = JSON.stringify(result);
+        //gs.info(js);
+        return js;
+    },
+
+    getLinuxS: function() {
+        var result2 = [];
+        var linux = new GlideRecord("cmdb_ci_linux_server");
+        linux.orderBy('name');
+        linux.query();
+        var i = 1;
+        while (linux.next()) {
+            result2.push({
+                num: i,
+                name: linux.getValue('name'),
+                ip_address: linux.getValue('ip_address')
+            });
+            i++;
+        }
+        //gs.info(kekka);
+        var js = JSON.stringify(result2);
+        return js;
+    },
+
+    insertTable: function() {
+        var SS = this.getParameter('sysparm_froms');
+        var DD = this.getParameter('sysparm_fromd');
+        var gr = new GlideRecord('x_405103_owaspauto_flowoperation');
+        gr.initialize();
+        gr.name = "Job3";
+        gr.status = "in process";
+        gr.fromserver = SS;
+        gr.fromdirectory = DD;
+        gr.toserver = "10.1.8.50";
+        gr.getdirectory = "/opt/owasp/DependencyCheck2/";
+        gr.insert();
+
+        return gr.name;
+    },
+
+    type: 'owaspget_ctrl'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 08:19:23</sys_created_on>
+        <sys_id>5811c807dbe10050df2da455ca96194d</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>test112_ctrl</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_script_include_5811c807dbe10050df2da455ca96194d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-11 09:15:32</sys_updated_on>
+    </sys_script_include>
+</record_update>

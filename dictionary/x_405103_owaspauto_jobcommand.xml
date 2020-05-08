@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="JOBcommand" max_length="40" name="x_405103_owaspauto_jobcommand" type="collection">
+        <element label="command" max_length="10000" name="command" type="string"/>
+        <element label="jobname" max_length="40" name="jobname" type="string"/>
+        <element label="note" max_length="500" name="note" type="string"/>
+    </element>
+</database>

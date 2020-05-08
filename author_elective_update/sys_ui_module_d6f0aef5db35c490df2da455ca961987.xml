@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Demo_ODC_Vulnerabilities</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_405103_owaspauto.demo_odc_vulnerabilities_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-19 09:01:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6f0aef5db35c490df2da455ca961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo_ODC_Vulnerabilities</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_ui_module_d6f0aef5db35c490df2da455ca961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-19 09:01:00</sys_updated_on>
+        <table>x_405103_owaspauto_demo_odc_vulnerabilities</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>6f6b6d30db6e1f80ff27d5b0cf96194c</instance_id>
+        <instance_name>dev60580</instance_name>
+        <name>sys_ui_module_d6f0aef5db35c490df2da455ca961987</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Demo_ODC_Vulnerabilities</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_405103_owaspauto.demo_odc_vulnerabilities_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-19 09:01:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6f0aef5db35c490df2da455ca961987</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo_ODC_Vulnerabilities</sys_name><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_ui_module_d6f0aef5db35c490df2da455ca961987</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-19 09:01:00</sys_updated_on><table>x_405103_owaspauto_demo_odc_vulnerabilities</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1318517952</payload_hash>
+        <record_name>Demo_ODC_Vulnerabilities</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 04:25:52</sys_created_on>
+        <sys_id>885e6051db3ecc50d3cef36f299619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701398e74f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 04:25:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>56f0aef53435c490096c4a10a5ff3189</update_guid>
+        <update_guid_history>56f0aef53435c490096c4a10a5ff3189:-266478496,56f0aef53435c490096c4a10a5ff3189:-266478496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 04:26:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>36371ef2a77d426992d75c683ad519d1</sys_id>
+        <sys_metadata>d6f0aef5db35c490df2da455ca961987</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo_ODC_Vulnerabilities</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_ui_module_d6f0aef5db35c490df2da455ca961987</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_d6f0aef5db35c490df2da455ca961987">885e6051db3ecc50d3cef36f299619c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 04:26:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

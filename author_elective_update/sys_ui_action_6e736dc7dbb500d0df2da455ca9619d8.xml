@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>button1</name>
+        <onclick>createbox()</onclick>
+        <order>100</order>
+        <script><![CDATA[function createtables(){
+	var ga = new GlideAjax('button1_ctrl');
+	ga.addParam('sysparm_name', 'addtables');
+	ga.getXML(cbResponse);
+}
+
+function cbResponse(response) {
+	alert("追加しました。画面を更新してください。");
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 02:00:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e736dc7dbb500d0df2da455ca9619d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>button1</sys_name>
+        <sys_overrides display_value="New">39e65ec867012300696c398557415ad6</sys_overrides>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_ui_action_6e736dc7dbb500d0df2da455ca9619d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 02:22:17</sys_updated_on>
+        <table/>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_ui_action_6e736dc7dbb500d0df2da455ca9619d8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;true&lt;/list_action&gt;&lt;list_banner_button&gt;true&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;button1&lt;/name&gt;&lt;onclick&gt;createbox()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function createtables(){
+	var ga = new GlideAjax('button1_ctrl');
+	ga.addParam('sysparm_name', 'addtables');
+	ga.getXML(cbResponse);
+}
+
+function cbResponse(response) {
+	alert("追加しました。画面を更新してください。");
+}
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-23 02:00:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6e736dc7dbb500d0df2da455ca9619d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;button1&lt;/sys_name&gt;&lt;sys_overrides display_value="New"&gt;39e65ec867012300696c398557415ad6&lt;/sys_overrides&gt;&lt;sys_package display_value="OWASPAutomation" source="x_405103_owaspauto"&gt;2aca6889dba90010df2da455ca961974&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OWASPAutomation"&gt;2aca6889dba90010df2da455ca961974&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_6e736dc7dbb500d0df2da455ca9619d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-23 02:22:17&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1267098471</payload_hash>
+        <record_name>button1</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 02:22:17</sys_created_on>
+        <sys_id>f01ce50bdbf500d0df2da455ca9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f308ff28e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 02:22:17</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>f81ce50ba6f500d08a1cccb99dad08d4</update_guid>
+        <update_guid_history>f81ce50ba6f500d08a1cccb99dad08d4:-1267098471,d7f6a98f47b500d075db26d0a0864145:1771053771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 04:21:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>25b80017519a4c86882a21a7ef0618e1</sys_id>
+        <sys_metadata>6e736dc7dbb500d0df2da455ca9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button1</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_ui_action_6e736dc7dbb500d0df2da455ca9619d8</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_6e736dc7dbb500d0df2da455ca9619d8">f01ce50bdbf500d0df2da455ca9619d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 04:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

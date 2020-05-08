@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>44ac7401db6d0010df2da455ca961966</copied_from>
+        <copied_from_name>Flow1</copied_from_name>
+        <description>Flow1</description>
+        <internal_name>flow1_1</internal_name>
+        <label_cache>[{"name":"Created_1.current.fromdirectory","label":"Trigger➛FlowOperation Record➛FromDirectory","reference":"","reference_display":"FromDirectory","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"fromdirectory"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"235ff1a2-bbcb-4ea3-b858-62b4e9b9f852.record","label":"6➛FlowOperation Record","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"reference","base_type":"reference"},{"name":"235ff1a2-bbcb-4ea3-b858-62b4e9b9f852.table_name","label":"6➛FlowOperation Table","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.status","label":"Trigger➛FlowOperation Record➛Status","reference":"","reference_display":"Status","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"status"},{"name":"Created_1.current","label":"Trigger➛FlowOperation Record","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"reference","base_type":"reference"},{"name":"30122931-30bc-404e-a8fe-e8c85178f92e.Record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"30122931-30bc-404e-a8fe-e8c85178f92e.Table","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.fromserver","label":"Trigger➛FlowOperation Record➛FromServer","reference":"","reference_display":"FromServer","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"fromserver"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Record","label":"3➛Credentials Record","reference":"discovery_credentials","reference_display":"Credentials","type":"reference","base_type":"reference"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Table","label":"3➛Credentials Table","reference":"discovery_credentials","reference_display":"Credentials","type":"table_name","base_type":"table_name"},{"name":"8e9c53df-fa6f-417d-a3c2-9a4c7fc04db2.Record","label":"1➛Server Record","reference":"cmdb_ci_server","reference_display":"Server","type":"reference","base_type":"reference"},{"name":"8e9c53df-fa6f-417d-a3c2-9a4c7fc04db2.Table","label":"1➛Server Table","reference":"cmdb_ci_server","reference_display":"Server","type":"table_name","base_type":"table_name"},{"name":"05aac127-244c-4771-828b-cfeb986cff20.Record","label":"2➛Server Record","reference":"cmdb_ci_server","reference_display":"Server","type":"reference","base_type":"reference"},{"name":"05aac127-244c-4771-828b-cfeb986cff20.Table","label":"2➛Server Table","reference":"cmdb_ci_server","reference_display":"Server","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.toserver","label":"Trigger➛FlowOperation Record➛ToServer","reference":"","reference_display":"ToServer","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"toserver"},{"name":"Created_1.current.getdirectory","label":"Trigger➛FlowOperation Record➛ToDirectory","reference":"","reference_display":"ToDirectory","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"getdirectory"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Record.password","label":"3➛Credentials Record➛Password","reference":"","reference_display":"Password","type":"password2","base_type":"password2","parent_table_name":"discovery_credentials","column_name":"password"},{"name":"f8fbbd9c-a308-4a4d-8e50-ef84dc957524.password","label":"4➛Password","reference_display":"Password","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Flow1_1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 08:12:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98affbb2dbe10050df2da455ca9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow1_1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_hub_flow_98affbb2dbe10050df2da455ca9619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 08:12:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=98affbb2dbe10050df2da455ca9619cd"/>
+    <sys_variable_value action="DELETE" query="document_key=98affbb2dbe10050df2da455ca9619cd"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=98affbb2dbe10050df2da455ca9619cd^sys_idNOT IN94affbb2dbe10050df2da455ca9619d0"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>98affbb2dbe10050df2da455ca9619cd</id>
+        <name>Flow1_1</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 08:12:47</sys_created_on>
+        <sys_id>94affbb2dbe10050df2da455ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 08:12:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_hub_flow_98affbb2dbe10050df2da455ca9619cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from>44ac7401db6d0010df2da455ca961966</copied_from><copied_from_name>Flow1</copied_from_name><description>Flow1</description><internal_name>flow1_1</internal_name><label_cache>[{"name":"Created_1.current.fromdirectory","label":"Trigger➛FlowOperation Record➛FromDirectory","reference":"","reference_display":"FromDirectory","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"fromdirectory"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"b3140215-a6e1-4244-9594-cbbc575b365e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"235ff1a2-bbcb-4ea3-b858-62b4e9b9f852.record","label":"6➛FlowOperation Record","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"reference","base_type":"reference"},{"name":"235ff1a2-bbcb-4ea3-b858-62b4e9b9f852.table_name","label":"6➛FlowOperation Table","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.status","label":"Trigger➛FlowOperation Record➛Status","reference":"","reference_display":"Status","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"status"},{"name":"Created_1.current","label":"Trigger➛FlowOperation Record","reference":"x_405103_owaspauto_flowoperation","reference_display":"FlowOperation","type":"reference","base_type":"reference"},{"name":"30122931-30bc-404e-a8fe-e8c85178f92e.Record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"30122931-30bc-404e-a8fe-e8c85178f92e.Table","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.fromserver","label":"Trigger➛FlowOperation Record➛FromServer","reference":"","reference_display":"FromServer","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"fromserver"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Record","label":"3➛Credentials Record","reference":"discovery_credentials","reference_display":"Credentials","type":"reference","base_type":"reference"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Table","label":"3➛Credentials Table","reference":"discovery_credentials","reference_display":"Credentials","type":"table_name","base_type":"table_name"},{"name":"8e9c53df-fa6f-417d-a3c2-9a4c7fc04db2.Record","label":"1➛Server Record","reference":"cmdb_ci_server","reference_display":"Server","type":"reference","base_type":"reference"},{"name":"8e9c53df-fa6f-417d-a3c2-9a4c7fc04db2.Table","label":"1➛Server Table","reference":"cmdb_ci_server","reference_display":"Server","type":"table_name","base_type":"table_name"},{"name":"05aac127-244c-4771-828b-cfeb986cff20.Record","label":"2➛Server Record","reference":"cmdb_ci_server","reference_display":"Server","type":"reference","base_type":"reference"},{"name":"05aac127-244c-4771-828b-cfeb986cff20.Table","label":"2➛Server Table","reference":"cmdb_ci_server","reference_display":"Server","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.toserver","label":"Trigger➛FlowOperation Record➛ToServer","reference":"","reference_display":"ToServer","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"toserver"},{"name":"Created_1.current.getdirectory","label":"Trigger➛FlowOperation Record➛ToDirectory","reference":"","reference_display":"ToDirectory","type":"string","base_type":"string","parent_table_name":"x_405103_owaspauto_flowoperation","column_name":"getdirectory"},{"name":"499ee8a7-5415-49ec-b458-702346e5a90c.Record.password","label":"3➛Credentials Record➛Password","reference":"","reference_display":"Password","type":"password2","base_type":"password2","parent_table_name":"discovery_credentials","column_name":"password"},{"name":"f8fbbd9c-a308-4a4d-8e50-ef84dc957524.password","label":"4➛Password","reference_display":"Password","type":"string","base_type":"string"}]</label_cache><latest_snapshot/><master_snapshot/><name>Flow1_1</name><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-10 08:12:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98affbb2dbe10050df2da455ca9619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Flow1_1</sys_name><sys_overrides/><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_hub_flow_98affbb2dbe10050df2da455ca9619cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-10 08:12:47</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=98affbb2dbe10050df2da455ca9619cd"/><sys_variable_value action="delete_multiple" query="document_key=98affbb2dbe10050df2da455ca9619cd"/><sys_flow_cat_variable_model action="delete_multiple" query="id=98affbb2dbe10050df2da455ca9619cd^sys_idNOT IN94affbb2dbe10050df2da455ca9619d0"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>98affbb2dbe10050df2da455ca9619cd</id><name>Flow1_1</name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-10 08:12:47</sys_created_on><sys_id>94affbb2dbe10050df2da455ca9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-10 08:12:47</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-1323566138</payload_hash>
+        <record_name>Flow1_1</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 08:12:48</sys_created_on>
+        <sys_id>54affbb2dbe10050df2da455ca9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16eeede2c250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 08:12:48</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>5caffbb280e10050f093c1b8297ecfd3</update_guid>
+        <update_guid_history>5caffbb280e10050f093c1b8297ecfd3:-1323566138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 07:12:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>2cc13f4a2cc24181bbf72e4e4eabf129</sys_id>
+        <sys_metadata>98affbb2dbe10050df2da455ca9619cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow1_1</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_98affbb2dbe10050df2da455ca9619cd</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_98affbb2dbe10050df2da455ca9619cd">54affbb2dbe10050df2da455ca9619d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 07:12:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

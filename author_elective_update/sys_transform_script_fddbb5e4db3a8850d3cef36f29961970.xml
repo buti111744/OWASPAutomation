@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="u_imp_tmpl_x_405103_owaspauto_demo_odc_main">a5dbb5e4db3a8850d3cef36f29961932</map>
+        <order>100</order>
+        <script><![CDATA[if (action == 'insert') 
+    ignore = true;]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-03 02:09:09</sys_created_on>
+        <sys_id>fddbb5e4db3a8850d3cef36f29961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_transform_script_fddbb5e4db3a8850d3cef36f29961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 02:09:09</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>6f6b6d30db6e1f80ff27d5b0cf96194c</instance_id>
+        <instance_name>dev60580</instance_name>
+        <name>sys_transform_script_fddbb5e4db3a8850d3cef36f29961970</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="u_imp_tmpl_x_405103_owaspauto_demo_odc_main"&gt;a5dbb5e4db3a8850d3cef36f29961932&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[if (action == 'insert') 
+    ignore = true;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-03 02:09:09&lt;/sys_created_on&gt;&lt;sys_id&gt;fddbb5e4db3a8850d3cef36f29961970&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="OWASPAutomation" source="x_405103_owaspauto"&gt;2aca6889dba90010df2da455ca961974&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OWASPAutomation"&gt;2aca6889dba90010df2da455ca961974&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_fddbb5e4db3a8850d3cef36f29961970&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-03 02:09:09&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>735321876</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-03 02:09:09</sys_created_on>
+        <sys_id>f5dbb5e4db3a8850d3cef36f29961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17008cf02e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-03 02:09:09</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>31dbb5e49b3a885014ac428fe0407572</update_guid>
+        <update_guid_history>31dbb5e49b3a885014ac428fe0407572:735321876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-12 02:00:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>2813e63b6d574c6087c8d3ea32384784</sys_id>
+        <sys_metadata>fddbb5e4db3a8850d3cef36f29961970</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_transform_script_fddbb5e4db3a8850d3cef36f29961970</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_fddbb5e4db3a8850d3cef36f29961970">f5dbb5e4db3a8850d3cef36f29961972</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-12 02:00:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

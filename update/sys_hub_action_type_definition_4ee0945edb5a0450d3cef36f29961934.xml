@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test15</internal_name>
+        <label_cache>[{"name":"{{action.additionalinfo}}","label":"action➛AdditionalInfo","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>7af5164adb034414d3cef36f29961975</latest_snapshot>
+        <master_snapshot>1eb6d49adb9a0450d3cef36f299619ef</master_snapshot>
+        <name>F2: Main_Summary_Insert</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:19:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ee0945edb5a0450d3cef36f29961934</sys_id>
+        <sys_mod_count>1071</sys_mod_count>
+        <sys_name>F2: Main_Summary_Insert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_4ee0945edb5a0450d3cef36f29961934</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4ee0945edb5a0450d3cef36f29961934"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4ee0945edb5a0450d3cef36f29961934"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=4ee0945edb5a0450d3cef36f29961934^sys_idNOT IN945543c0db2ec090d3cef36f299619f5,c711d89edb5a0450d3cef36f29961955,d6be6834dbe20890d3cef36f299619c1,f5f2c8b0dbaec490d3cef36f29961963"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>842fcdd5-9a93-402b-b8ec-a4b5a297d75e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script delete_Tables</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:31</sys_created_on>
+        <sys_id>945543c0db2ec090d3cef36f299619f5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=945543c0db2ec090d3cef36f299619f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:32</sys_created_on>
+        <sys_id>5055cb44db2ec090d3cef36f29961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 05:05:26</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+    //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 05:43:27</sys_created_on>
+        <sys_id>72ef464edbcf0414d3cef36f299619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:32</sys_created_on>
+        <sys_id>9c55cb44db2ec090d3cef36f29961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 07:57:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 05:43:27</sys_created_on>
+        <sys_id>f6ef464edbcf0414d3cef36f299619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+        <value>20007d5fcb6b1300ec90433df8076dca</value>
+        <variable display_value="">2b2ba571b3101300176b051a16a8dc8f</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>452ed75e-f83c-4f36-95f6-66fed7b732b0</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_mainTable</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:48</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f29961955</sys_id>
+        <sys_mod_count>200</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c711d89edb5a0450d3cef36f29961955"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c711d89edb5a0450d3cef36f29961955</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>8311d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c711d89edb5a0450d3cef36f29961955</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>cb11d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>197</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 08:30:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //変数宣言
+  jsondata = JSON.parse(inputs.AdditionalInfomation);
+  ODCdata = [];
+  ODCresult = [];
+  
+  ODCdataObj = JSON.parse(jsondata.owasp_dc_result);
+  for(var i=0;i&lt;ODCdataObj.length;i++){
+    ODCdataStr = "[\"" + ODCdataObj[i] + "\"]";
+    ODCDataJSON = JSON.parse(ODCdataStr);
+    ODCDataJSONparse = JSON.parse("[" + ODCDataJSON[0] + "]");
+    ODCresult.push(ODCDataJSONparse);
+    /****/
+  }
+  
+  //gs.info(typeof ODCresult[0][0] + ":::" + ODCresult[0][0]); 
+  
+  for(var j=0; j&lt;ODCresult.length; j++){
+    //参照列の取得
+    var recref = new GlideRecord('x_405103_owaspauto_demo_odc_vulnerabilities');
+    var returnValue = recref.get('name',ODCresult[j][6]);    
+    var vulname = recref.sys_id;
+    
+  //GlideRecordでテーブルにInsertする
+    var rec = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    rec.initialize();
+    rec.file_name = "【Demo】" + ODCresult[j][0];
+    rec.file_path = ODCresult[j][1];
+    rec.license = ODCresult[j][2];	
+    rec.evidence = ODCresult[j][3];
+    rec.related_dependencies = ODCresult[j][4];
+    rec.identifiers = ODCresult[j][5];
+    //rec.vulnerabilities_name = ODCresult[j][6];
+    rec.vulnerabilities_name = vulname;
+    rec.vulnerabilities_cvssv2_severity = ODCresult[j][7];
+    rec.vulnerabilities_cvssv2_score = ODCresult[j][8];
+    rec.datatime = ODCresult[j][9];
+    rec.vulnerabilities_cvss_score_report = Math.round(ODCresult[j][8]); //Scoreを四捨五入したデータを入れること！！！
+    rec.insert();
+    
+  }  
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c711d89edb5a0450d3cef36f29961955"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AdditionalInfomation</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c711d89edb5a0450d3cef36f29961955</table>
+        <value>{{action.additionalinfo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f299619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>0311d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c711d89edb5a0450d3cef36f29961955^sys_idNOT IN4311d89edb5a0450d3cef36f2996195a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AdditionalInfomation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script insert_mainTable">c711d89edb5a0450d3cef36f29961955</model>
+        <model_id>c711d89edb5a0450d3cef36f29961955</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c711d89edb5a0450d3cef36f29961955</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>4311d89edb5a0450d3cef36f2996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>de64ed83-154a-4396-919f-4a64fdf0a305</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_HSeverity</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>d6be6834dbe20890d3cef36f299619c1</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6be6834dbe20890d3cef36f299619c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d6be6834dbe20890d3cef36f299619c1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>96be6834dbe20890d3cef36f299619c8</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 06:03:51</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var severity;
+  var maxScore = 0;
+  var rowcount = 0;
+  
+  var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  smmy.query();
+  while(smmy.next()){
+    //*******************mainテーブルにある最もスコアの大きい値を取得******************
+    maxScore = 0;
+    var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    main.addQuery('file_name', smmy.dependency);
+    main.query();
+    rowcount = main.getRowCount();
+    while(main.next()){
+      if(Number(main.vulnerabilities_cvssv2_score) &gt; maxScore){
+        maxScore = Number(main.vulnerabilities_cvssv2_score);
+      }
+    }
+    //******************取れた最大スコアに対しての重大度は何か計算する******************
+    gs.info(smmy.dependency + ":::" + maxScore +"(("+typeof maxScore+"))");
+    if(maxScore &gt;= 9){
+      severity = "CRITICAL";
+    }else if(maxScore &gt;= 7){
+      severity = "HIGH";
+    }else if(maxScore &gt;= 4){
+      severity = "MEDIUM";
+    }else if(maxScore &gt;= 0.1){
+      severity = "LOW";
+    }else{
+      severity = "cannot get Score0";
+    }    
+    //***********************************insert処理**********************************
+    smmy.highest_severity = severity;
+    smmy.cve_count = rowcount;
+    smmy.update();
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d6be6834dbe20890d3cef36f299619c1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>9ebe6834dbe20890d3cef36f299619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 04:55:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>68a6ca13-8d83-4dab-b14d-3a66666129e0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_dep</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:49</sys_created_on>
+        <sys_id>f5f2c8b0dbaec490d3cef36f29961963</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5f2c8b0dbaec490d3cef36f29961963"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5f2c8b0dbaec490d3cef36f29961963</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:50</sys_created_on>
+        <sys_id>75f2c8b0dbaec490d3cef36f2996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 01:43:50</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5f2c8b0dbaec490d3cef36f29961963</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:50</sys_created_on>
+        <sys_id>fdf2c8b0dbaec490d3cef36f2996196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 02:29:49</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //mainテーブルについて取得
+  var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  main.query();
+  while(main.next()){
+    var count = 0;
+    
+    //*********************ここでサマリーを1つずつ比較して、なければ追加する処理**********************
+    //サマリーテーブルを取得
+    var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+    smmy.query();
+    while(smmy.next()){
+      if(main.file_name == smmy.dependency){
+        //meinとサマリーが合致するなら既にあるということ
+        count = count + 1; //1こ足す
+      }//なければ何もしない
+    }
+    if(count === 0){//結果テーブルに1つもない場合、
+      //追加処理を実施
+      var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+      smmy.initialize();
+      smmy.dependency = main.file_name;
+      smmy.insert();
+    }//0じゃなければ何もしない
+    //*********************サマリーとの比較おわり**********************
+
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=4ee0945edb5a0450d3cef36f29961934^sys_idNOT INac01109edb5a0450d3cef36f29961931"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>additionalinfo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>AdditionalInfo</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</model>
+        <model_id>4ee0945edb5a0450d3cef36f29961934</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_4ee0945edb5a0450d3cef36f29961934</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:22</sys_created_on>
+        <sys_id>ac01109edb5a0450d3cef36f29961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=4ee0945edb5a0450d3cef36f29961934^sys_idNOT IN945543c0db2ec090d3cef36f299619f5,c711d89edb5a0450d3cef36f29961955,d6be6834dbe20890d3cef36f299619c1,f5f2c8b0dbaec490d3cef36f29961963"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>842fcdd5-9a93-402b-b8ec-a4b5a297d75e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script delete_Tables</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:31</sys_created_on>
+        <sys_id>945543c0db2ec090d3cef36f299619f5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=945543c0db2ec090d3cef36f299619f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:32</sys_created_on>
+        <sys_id>5055cb44db2ec090d3cef36f29961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 05:05:26</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+    //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 05:43:27</sys_created_on>
+        <sys_id>72ef464edbcf0414d3cef36f299619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:32</sys_created_on>
+        <sys_id>9c55cb44db2ec090d3cef36f29961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 07:57:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>945543c0db2ec090d3cef36f299619f5</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 05:43:27</sys_created_on>
+        <sys_id>f6ef464edbcf0414d3cef36f299619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:43:27</sys_updated_on>
+        <value>20007d5fcb6b1300ec90433df8076dca</value>
+        <variable display_value="">2b2ba571b3101300176b051a16a8dc8f</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>452ed75e-f83c-4f36-95f6-66fed7b732b0</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_mainTable</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:48</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f29961955</sys_id>
+        <sys_mod_count>200</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c711d89edb5a0450d3cef36f29961955"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c711d89edb5a0450d3cef36f29961955</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>8311d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c711d89edb5a0450d3cef36f29961955</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>cb11d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>197</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 08:30:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //変数宣言
+  jsondata = JSON.parse(inputs.AdditionalInfomation);
+  ODCdata = [];
+  ODCresult = [];
+  
+  ODCdataObj = JSON.parse(jsondata.owasp_dc_result);
+  for(var i=0;i&lt;ODCdataObj.length;i++){
+    ODCdataStr = "[\"" + ODCdataObj[i] + "\"]";
+    ODCDataJSON = JSON.parse(ODCdataStr);
+    ODCDataJSONparse = JSON.parse("[" + ODCDataJSON[0] + "]");
+    ODCresult.push(ODCDataJSONparse);
+    /****/
+  }
+  
+  //gs.info(typeof ODCresult[0][0] + ":::" + ODCresult[0][0]); 
+  
+  for(var j=0; j&lt;ODCresult.length; j++){
+    //参照列の取得
+    var recref = new GlideRecord('x_405103_owaspauto_demo_odc_vulnerabilities');
+    var returnValue = recref.get('name',ODCresult[j][6]);    
+    var vulname = recref.sys_id;
+    
+  //GlideRecordでテーブルにInsertする
+    var rec = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    rec.initialize();
+    rec.file_name = "【Demo】" + ODCresult[j][0];
+    rec.file_path = ODCresult[j][1];
+    rec.license = ODCresult[j][2];	
+    rec.evidence = ODCresult[j][3];
+    rec.related_dependencies = ODCresult[j][4];
+    rec.identifiers = ODCresult[j][5];
+    //rec.vulnerabilities_name = ODCresult[j][6];
+    rec.vulnerabilities_name = vulname;
+    rec.vulnerabilities_cvssv2_severity = ODCresult[j][7];
+    rec.vulnerabilities_cvssv2_score = ODCresult[j][8];
+    rec.datatime = ODCresult[j][9];
+    rec.vulnerabilities_cvss_score_report = Math.round(ODCresult[j][8]); //Scoreを四捨五入したデータを入れること！！！
+    rec.insert();
+    
+  }  
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c711d89edb5a0450d3cef36f29961955"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AdditionalInfomation</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c711d89edb5a0450d3cef36f29961955</table>
+        <value>{{action.additionalinfo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>c711d89edb5a0450d3cef36f299619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c711d89edb5a0450d3cef36f29961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>0311d89edb5a0450d3cef36f299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c711d89edb5a0450d3cef36f29961955^sys_idNOT IN4311d89edb5a0450d3cef36f2996195a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AdditionalInfomation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script insert_mainTable">c711d89edb5a0450d3cef36f29961955</model>
+        <model_id>c711d89edb5a0450d3cef36f29961955</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c711d89edb5a0450d3cef36f29961955</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:49</sys_created_on>
+        <sys_id>4311d89edb5a0450d3cef36f2996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>de64ed83-154a-4396-919f-4a64fdf0a305</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_HSeverity</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>d6be6834dbe20890d3cef36f299619c1</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6be6834dbe20890d3cef36f299619c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d6be6834dbe20890d3cef36f299619c1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>96be6834dbe20890d3cef36f299619c8</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 06:03:51</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var severity;
+  var maxScore = 0;
+  var rowcount = 0;
+  
+  var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  smmy.query();
+  while(smmy.next()){
+    //*******************mainテーブルにある最もスコアの大きい値を取得******************
+    maxScore = 0;
+    var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    main.addQuery('file_name', smmy.dependency);
+    main.query();
+    rowcount = main.getRowCount();
+    while(main.next()){
+      if(Number(main.vulnerabilities_cvssv2_score) &gt; maxScore){
+        maxScore = Number(main.vulnerabilities_cvssv2_score);
+      }
+    }
+    //******************取れた最大スコアに対しての重大度は何か計算する******************
+    gs.info(smmy.dependency + ":::" + maxScore +"(("+typeof maxScore+"))");
+    if(maxScore &gt;= 9){
+      severity = "CRITICAL";
+    }else if(maxScore &gt;= 7){
+      severity = "HIGH";
+    }else if(maxScore &gt;= 4){
+      severity = "MEDIUM";
+    }else if(maxScore &gt;= 0.1){
+      severity = "LOW";
+    }else{
+      severity = "cannot get Score0";
+    }    
+    //***********************************insert処理**********************************
+    smmy.highest_severity = severity;
+    smmy.cve_count = rowcount;
+    smmy.update();
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d6be6834dbe20890d3cef36f299619c1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:00</sys_created_on>
+        <sys_id>9ebe6834dbe20890d3cef36f299619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 04:55:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action>
+        <cid>68a6ca13-8d83-4dab-b14d-3a66666129e0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_dep</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:49</sys_created_on>
+        <sys_id>f5f2c8b0dbaec490d3cef36f29961963</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5f2c8b0dbaec490d3cef36f29961963"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5f2c8b0dbaec490d3cef36f29961963</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:50</sys_created_on>
+        <sys_id>75f2c8b0dbaec490d3cef36f2996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 01:43:50</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5f2c8b0dbaec490d3cef36f29961963</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:50</sys_created_on>
+        <sys_id>fdf2c8b0dbaec490d3cef36f2996196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 02:29:49</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //mainテーブルについて取得
+  var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  main.query();
+  while(main.next()){
+    var count = 0;
+    
+    //*********************ここでサマリーを1つずつ比較して、なければ追加する処理**********************
+    //サマリーテーブルを取得
+    var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+    smmy.query();
+    while(smmy.next()){
+      if(main.file_name == smmy.dependency){
+        //meinとサマリーが合致するなら既にあるということ
+        count = count + 1; //1こ足す
+      }//なければ何もしない
+    }
+    if(count === 0){//結果テーブルに1つもない場合、
+      //追加処理を実施
+      var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+      smmy.initialize();
+      smmy.dependency = main.file_name;
+      smmy.insert();
+    }//0じゃなければ何もしない
+    //*********************サマリーとの比較おわり**********************
+
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4ee0945edb5a0450d3cef36f29961934^sys_idNOT INac01949edb5a0450d3cef36f299619ed"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>additionalinfo</element>
+        <help/>
+        <hint/>
+        <label>AdditionalInfo</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_4ee0945edb5a0450d3cef36f29961934</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:20:23</sys_created_on>
+        <sys_id>ac01949edb5a0450d3cef36f299619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AdditionalInfo</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4ee0945edb5a0450d3cef36f29961934_additionalinfo_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:20:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=4ee0945edb5a0450d3cef36f29961934^sys_idNOT INeab6189adb9a0450d3cef36f29961942"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"eab6189adb9a0450d3cef36f29961942","name":"plan"}}</plan>
+        <snapshot>7af5164adb034414d3cef36f29961975</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eab6189adb9a0450d3cef36f29961942</sys_id>
+        <sys_mod_count>212</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:10:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test15</internal_name>
+        <label_cache>[{"name":"{{action.additionalinfo}}","label":"action➛AdditionalInfo","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>F2: Main_Summary_Insert</name>
+        <outputs/>
+        <parent_action display_value="F2: Main_Summary_Insert">4ee0945edb5a0450d3cef36f29961934</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1eb6d49adb9a0450d3cef36f299619ef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 04:56:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1eb6d49adb9a0450d3cef36f299619ef"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1eb6d49adb9a0450d3cef36f299619ef"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=1eb6d49adb9a0450d3cef36f299619ef^sys_idNOT IN55550f44db2ec090d3cef36f299619b0,56b6d49adb9a0450d3cef36f299619f7,7af20cb0dbaec490d3cef36f299619db,b9ce2c34dbe20890d3cef36f2996195b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>842fcdd5-9a93-402b-b8ec-a4b5a297d75e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script delete_Tables</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>55550f44db2ec090d3cef36f299619b0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55550f44db2ec090d3cef36f299619b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 06:09:58</sys_created_on>
+        <sys_id>43f5164adb034414d3cef36f299619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>51550f44db2ec090d3cef36f299619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 05:05:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+    //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 06:09:58</sys_created_on>
+        <sys_id>8ff5164adb034414d3cef36f299619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+        <value>20007d5fcb6b1300ec90433df8076dca</value>
+        <variable display_value="">2b2ba571b3101300176b051a16a8dc8f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>9d550f44db2ec090d3cef36f299619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 07:57:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>452ed75e-f83c-4f36-95f6-66fed7b732b0</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_mainTable</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>56b6d49adb9a0450d3cef36f299619f7</sys_id>
+        <sys_mod_count>185</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56b6d49adb9a0450d3cef36f299619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56b6d49adb9a0450d3cef36f299619f7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>1ab6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>182</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 08:30:29</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //変数宣言
+  jsondata = JSON.parse(inputs.AdditionalInfomation);
+  ODCdata = [];
+  ODCresult = [];
+  
+  ODCdataObj = JSON.parse(jsondata.owasp_dc_result);
+  for(var i=0;i&lt;ODCdataObj.length;i++){
+    ODCdataStr = "[\"" + ODCdataObj[i] + "\"]";
+    ODCDataJSON = JSON.parse(ODCdataStr);
+    ODCDataJSONparse = JSON.parse("[" + ODCDataJSON[0] + "]");
+    ODCresult.push(ODCDataJSONparse);
+    /****/
+  }
+  
+  //gs.info(typeof ODCresult[0][0] + ":::" + ODCresult[0][0]); 
+  
+  for(var j=0; j&lt;ODCresult.length; j++){
+    //参照列の取得
+    var recref = new GlideRecord('x_405103_owaspauto_demo_odc_vulnerabilities');
+    var returnValue = recref.get('name',ODCresult[j][6]);    
+    var vulname = recref.sys_id;
+    
+  //GlideRecordでテーブルにInsertする
+    var rec = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    rec.initialize();
+    rec.file_name = "【Demo】" + ODCresult[j][0];
+    rec.file_path = ODCresult[j][1];
+    rec.license = ODCresult[j][2];	
+    rec.evidence = ODCresult[j][3];
+    rec.related_dependencies = ODCresult[j][4];
+    rec.identifiers = ODCresult[j][5];
+    //rec.vulnerabilities_name = ODCresult[j][6];
+    rec.vulnerabilities_name = vulname;
+    rec.vulnerabilities_cvssv2_severity = ODCresult[j][7];
+    rec.vulnerabilities_cvssv2_score = ODCresult[j][8];
+    rec.datatime = ODCresult[j][9];
+    rec.vulnerabilities_cvss_score_report = Math.round(ODCresult[j][8]); //Scoreを四捨五入したデータを入れること！！！
+    rec.insert();
+    
+  }  
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56b6d49adb9a0450d3cef36f299619f7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>56b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=56b6d49adb9a0450d3cef36f299619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AdditionalInfomation</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>92b6189adb9a0450d3cef36f29961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_56b6d49adb9a0450d3cef36f299619f7</table>
+        <value>{{action.additionalinfo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>12b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>d2b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=56b6d49adb9a0450d3cef36f299619f7^sys_idNOT IN52b6d49adb9a0450d3cef36f299619fa"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AdditionalInfomation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>AdditionalInfomation</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script insert_mainTable">56b6d49adb9a0450d3cef36f299619f7</model>
+        <model_id>56b6d49adb9a0450d3cef36f299619f7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_56b6d49adb9a0450d3cef36f299619f7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>52b6d49adb9a0450d3cef36f299619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>68a6ca13-8d83-4dab-b14d-3a66666129e0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_dep</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>7af20cb0dbaec490d3cef36f299619db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7af20cb0dbaec490d3cef36f299619db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7af20cb0dbaec490d3cef36f299619db</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>03f20cb0dbaec490d3cef36f299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 01:43:54</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7af20cb0dbaec490d3cef36f299619db</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>c3f20cb0dbaec490d3cef36f299619e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 02:29:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //mainテーブルについて取得
+  var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  main.query();
+  while(main.next()){
+    var count = 0;
+    
+    //*********************ここでサマリーを1つずつ比較して、なければ追加する処理**********************
+    //サマリーテーブルを取得
+    var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+    smmy.query();
+    while(smmy.next()){
+      if(main.file_name == smmy.dependency){
+        //meinとサマリーが合致するなら既にあるということ
+        count = count + 1; //1こ足す
+      }//なければ何もしない
+    }
+    if(count === 0){//結果テーブルに1つもない場合、
+      //追加処理を実施
+      var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+      smmy.initialize();
+      smmy.dependency = main.file_name;
+      smmy.insert();
+    }//0じゃなければ何もしない
+    //*********************サマリーとの比較おわり**********************
+
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>de64ed83-154a-4396-919f-4a64fdf0a305</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_HSeverity</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>b9ce2c34dbe20890d3cef36f2996195b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9ce2c34dbe20890d3cef36f2996195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ce2c34dbe20890d3cef36f2996195b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>35ce2c34dbe20890d3cef36f29961961</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 06:03:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var severity;
+  var maxScore = 0;
+  var rowcount = 0;
+  
+  var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  smmy.query();
+  while(smmy.next()){
+    //*******************mainテーブルにある最もスコアの大きい値を取得******************
+    maxScore = 0;
+    var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    main.addQuery('file_name', smmy.dependency);
+    main.query();
+    rowcount = main.getRowCount();
+    while(main.next()){
+      if(Number(main.vulnerabilities_cvssv2_score) &gt; maxScore){
+        maxScore = Number(main.vulnerabilities_cvssv2_score);
+      }
+    }
+    //******************取れた最大スコアに対しての重大度は何か計算する******************
+    gs.info(smmy.dependency + ":::" + maxScore +"(("+typeof maxScore+"))");
+    if(maxScore &gt;= 9){
+      severity = "CRITICAL";
+    }else if(maxScore &gt;= 7){
+      severity = "HIGH";
+    }else if(maxScore &gt;= 4){
+      severity = "MEDIUM";
+    }else if(maxScore &gt;= 0.1){
+      severity = "LOW";
+    }else{
+      severity = "cannot get Score0";
+    }    
+    //***********************************insert処理**********************************
+    smmy.highest_severity = severity;
+    smmy.cve_count = rowcount;
+    smmy.update();
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ce2c34dbe20890d3cef36f2996195b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>71ce2c34dbe20890d3cef36f29961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 04:55:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=1eb6d49adb9a0450d3cef36f299619ef^sys_idNOT INdab6d49adb9a0450d3cef36f299619f0"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>additionalinfo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>AdditionalInfo</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</model>
+        <model_id>1eb6d49adb9a0450d3cef36f299619ef</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_1eb6d49adb9a0450d3cef36f299619ef</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>dab6d49adb9a0450d3cef36f299619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=1eb6d49adb9a0450d3cef36f299619ef^sys_idNOT IN55550f44db2ec090d3cef36f299619b0,56b6d49adb9a0450d3cef36f299619f7,7af20cb0dbaec490d3cef36f299619db,b9ce2c34dbe20890d3cef36f2996195b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>842fcdd5-9a93-402b-b8ec-a4b5a297d75e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script delete_Tables</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>55550f44db2ec090d3cef36f299619b0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=55550f44db2ec090d3cef36f299619b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 06:09:58</sys_created_on>
+        <sys_id>43f5164adb034414d3cef36f299619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>51550f44db2ec090d3cef36f299619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 05:05:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+    //テーブル削除
+  var recdelete = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  recdelete.query(); 
+  while(recdelete.next()) { 
+    recdelete.deleteRecord(); }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 06:09:58</sys_created_on>
+        <sys_id>8ff5164adb034414d3cef36f299619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 06:09:58</sys_updated_on>
+        <value>20007d5fcb6b1300ec90433df8076dca</value>
+        <variable display_value="">2b2ba571b3101300176b051a16a8dc8f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>55550f44db2ec090d3cef36f299619b0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-20 07:57:35</sys_created_on>
+        <sys_id>9d550f44db2ec090d3cef36f299619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 07:57:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>452ed75e-f83c-4f36-95f6-66fed7b732b0</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_mainTable</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>56b6d49adb9a0450d3cef36f299619f7</sys_id>
+        <sys_mod_count>185</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56b6d49adb9a0450d3cef36f299619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56b6d49adb9a0450d3cef36f299619f7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>1ab6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>182</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-20 08:30:29</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //変数宣言
+  jsondata = JSON.parse(inputs.AdditionalInfomation);
+  ODCdata = [];
+  ODCresult = [];
+  
+  ODCdataObj = JSON.parse(jsondata.owasp_dc_result);
+  for(var i=0;i&lt;ODCdataObj.length;i++){
+    ODCdataStr = "[\"" + ODCdataObj[i] + "\"]";
+    ODCDataJSON = JSON.parse(ODCdataStr);
+    ODCDataJSONparse = JSON.parse("[" + ODCDataJSON[0] + "]");
+    ODCresult.push(ODCDataJSONparse);
+    /****/
+  }
+  
+  //gs.info(typeof ODCresult[0][0] + ":::" + ODCresult[0][0]); 
+  
+  for(var j=0; j&lt;ODCresult.length; j++){
+    //参照列の取得
+    var recref = new GlideRecord('x_405103_owaspauto_demo_odc_vulnerabilities');
+    var returnValue = recref.get('name',ODCresult[j][6]);    
+    var vulname = recref.sys_id;
+    
+  //GlideRecordでテーブルにInsertする
+    var rec = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    rec.initialize();
+    rec.file_name = "【Demo】" + ODCresult[j][0];
+    rec.file_path = ODCresult[j][1];
+    rec.license = ODCresult[j][2];	
+    rec.evidence = ODCresult[j][3];
+    rec.related_dependencies = ODCresult[j][4];
+    rec.identifiers = ODCresult[j][5];
+    //rec.vulnerabilities_name = ODCresult[j][6];
+    rec.vulnerabilities_name = vulname;
+    rec.vulnerabilities_cvssv2_severity = ODCresult[j][7];
+    rec.vulnerabilities_cvssv2_score = ODCresult[j][8];
+    rec.datatime = ODCresult[j][9];
+    rec.vulnerabilities_cvss_score_report = Math.round(ODCresult[j][8]); //Scoreを四捨五入したデータを入れること！！！
+    rec.insert();
+    
+  }  
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56b6d49adb9a0450d3cef36f299619f7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>56b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=56b6d49adb9a0450d3cef36f299619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AdditionalInfomation</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>92b6189adb9a0450d3cef36f29961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_56b6d49adb9a0450d3cef36f299619f7</table>
+        <value>{{action.additionalinfo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>12b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>56b6d49adb9a0450d3cef36f299619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:21</sys_created_on>
+        <sys_id>d2b6189adb9a0450d3cef36f29961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=56b6d49adb9a0450d3cef36f299619f7^sys_idNOT IN52b6d49adb9a0450d3cef36f299619fa"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AdditionalInfomation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>AdditionalInfomation</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script insert_mainTable">56b6d49adb9a0450d3cef36f299619f7</model>
+        <model_id>56b6d49adb9a0450d3cef36f299619f7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_56b6d49adb9a0450d3cef36f299619f7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>52b6d49adb9a0450d3cef36f299619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>68a6ca13-8d83-4dab-b14d-3a66666129e0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_dep</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>7af20cb0dbaec490d3cef36f299619db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7af20cb0dbaec490d3cef36f299619db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7af20cb0dbaec490d3cef36f299619db</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>03f20cb0dbaec490d3cef36f299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 01:43:54</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7af20cb0dbaec490d3cef36f299619db</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 01:43:54</sys_created_on>
+        <sys_id>c3f20cb0dbaec490d3cef36f299619e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 02:29:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //mainテーブルについて取得
+  var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+  main.query();
+  while(main.next()){
+    var count = 0;
+    
+    //*********************ここでサマリーを1つずつ比較して、なければ追加する処理**********************
+    //サマリーテーブルを取得
+    var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+    smmy.query();
+    while(smmy.next()){
+      if(main.file_name == smmy.dependency){
+        //meinとサマリーが合致するなら既にあるということ
+        count = count + 1; //1こ足す
+      }//なければ何もしない
+    }
+    if(count === 0){//結果テーブルに1つもない場合、
+      //追加処理を実施
+      var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+      smmy.initialize();
+      smmy.dependency = main.file_name;
+      smmy.insert();
+    }//0じゃなければ何もしない
+    //*********************サマリーとの比較おわり**********************
+
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="F2: Main_Summary_Insert">1eb6d49adb9a0450d3cef36f299619ef</action>
+        <cid>de64ed83-154a-4396-919f-4a64fdf0a305</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script insert_summary_HSeverity</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>b9ce2c34dbe20890d3cef36f2996195b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-23 06:15:57</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9ce2c34dbe20890d3cef36f2996195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ce2c34dbe20890d3cef36f2996195b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>35ce2c34dbe20890d3cef36f29961961</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 06:03:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var severity;
+  var maxScore = 0;
+  var rowcount = 0;
+  
+  var smmy = new GlideRecord('x_405103_owaspauto_demo_odc_summary');
+  smmy.query();
+  while(smmy.next()){
+    //*******************mainテーブルにある最もスコアの大きい値を取得******************
+    maxScore = 0;
+    var main = new GlideRecord('x_405103_owaspauto_demo_odc_main');
+    main.addQuery('file_name', smmy.dependency);
+    main.query();
+    rowcount = main.getRowCount();
+    while(main.next()){
+      if(Number(main.vulnerabilities_cvssv2_score) &gt; maxScore){
+        maxScore = Number(main.vulnerabilities_cvssv2_score);
+      }
+    }
+    //******************取れた最大スコアに対しての重大度は何か計算する******************
+    gs.info(smmy.dependency + ":::" + maxScore +"(("+typeof maxScore+"))");
+    if(maxScore &gt;= 9){
+      severity = "CRITICAL";
+    }else if(maxScore &gt;= 7){
+      severity = "HIGH";
+    }else if(maxScore &gt;= 4){
+      severity = "MEDIUM";
+    }else if(maxScore &gt;= 0.1){
+      severity = "LOW";
+    }else{
+      severity = "cannot get Score0";
+    }    
+    //***********************************insert処理**********************************
+    smmy.highest_severity = severity;
+    smmy.cve_count = rowcount;
+    smmy.update();
+  }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9ce2c34dbe20890d3cef36f2996195b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-22 04:55:15</sys_created_on>
+        <sys_id>71ce2c34dbe20890d3cef36f29961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-22 04:55:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1eb6d49adb9a0450d3cef36f299619ef^sys_idNOT IN5ab6d49adb9a0450d3cef36f299619f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>additionalinfo</element>
+        <help/>
+        <hint/>
+        <label>AdditionalInfo</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1eb6d49adb9a0450d3cef36f299619ef</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-14 08:45:20</sys_created_on>
+        <sys_id>5ab6d49adb9a0450d3cef36f299619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AdditionalInfo</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1eb6d49adb9a0450d3cef36f299619ef_additionalinfo_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-14 08:45:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

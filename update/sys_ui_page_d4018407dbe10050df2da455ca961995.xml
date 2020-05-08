@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var app = angular.module('demoApp', []);
+app.controller('DemoController', function($scope) {
+
+    insertpuldown(); //画面起動直後に関数の実行
+
+	$scope.click = function(){
+		alert($scope.FromS1); //IPアドレスが表示されるよ
+		alert($scope.FromS2); //IPアドレスが表示されるよ
+	};	
+	
+	
+    function insertpuldown() {
+        /** 経由するMIDサーバー名 のプルダウンメニューをテーブルから取得する**/
+        var ga = new GlideAjax("test112_ctrl");
+        ga.addParam('sysparm_name', 'getMIDS');
+        ga.getXML(Response);
+
+        function Response(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            var answerJ = JSON.parse(answer);
+            $scope.MIDSs = answerJ;
+            //alert(answer);//JSON文字列
+            //alert(answerJ);//JSON型
+        }
+
+
+        /** 取得先のサーバ名 のプルダウンメニューをテーブルから取得する**/
+        var ga2 = new GlideAjax("test112_ctrl");
+        ga2.addParam('sysparm_name', 'getLinuxS');
+        ga2.getXML(Response2);
+
+        function Response2(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            var answerJ = JSON.parse(answer);
+            $scope.serverSs = answerJ;
+            //alert(answer);//JSON文字列
+            //alert(answerJ);JSON型
+            $scope.$apply(); //再描画
+        }
+    }
+
+//     $scope.click = function() {
+//         //クリックしたらレコード追加（追加後はフローが作動）
+//         var FS = $scope.FromS; //取得先のサーバ名
+//         var FD = $scope.FromD; //取得先のディレクトリ名
+//         var ga3 = new GlideAjax('test112_ctrl');
+//         ga3.addParam('sysparm_name', 'insertTable');
+//         ga3.addParam('sysparm_froms', "" + FS);
+//         ga3.addParam('sysparm_fromd', "" + FD);
+//         ga3.getXML(Response3);
+
+//         function Response3(response) {
+//             var answer = response.responseXML.documentElement.getAttribute("answer");
+//             alert("脆弱性診断を実行します。（5分程時間がかかります）");
+//         }
+//     };
+
+
+
+});]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_405103_owaspauto_test112.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<style type="text/css">
+		select {
+			width: 250px; 
+		}
+		input[type="text"] {
+			width: 400px;
+			height: 30px;
+		}
+		label {
+			display: inline-block;
+			width: 160px;
+			text-align: right;
+			margin-left: .5em;
+		}
+	</style>
+	
+	<div ng-app="demoApp">
+		<div ng-controller="DemoController">
+			<p></p><p></p>
+			<form name ="inputForm">
+				<!--<p><h1>リカバリジョブ一覧</h1><br/></p> -->
+				<!--  <input type="button" value ="取得" ng-model="buttontest()"/>  
+                      <p>取得先のサーバー名:   <input type ="text" ng-init='FromS="10.1.8.15"' ng-model="FromS"/>  </p>-->
+				<p><label>経由するMIDサーバー名:</label>
+				<select ng-model="FromS1" ng-options="ms.ip_address as ms.name for ms in MIDSs">
+					<option value=''>---</option>
+				</select></p>
+				
+				<p><label>取得先のサーバ名:</label>
+				<select ng-model="FromS2" ng-options="ls.ip_address as ls.name for ls in serverSs">
+					<option value=''>---</option>
+				</select></p>
+				
+
+				<p><label>取得先のディレクトリ名:</label>   <input type ="text" ng-init='FromD="/opt/vuls/owasp/project/ManufacturingSpace-master.zip"' ng-model="FromD"/>  </p>
+				<p>   <input type ="button" value="脆弱性チェック実行" ng-click="click()"/></p>
+			</form>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>test112</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 08:18:58</sys_created_on>
+        <sys_id>d4018407dbe10050df2da455ca961995</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>test112</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_ui_page_d4018407dbe10050df2da455ca961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 01:49:13</sys_updated_on>
+    </sys_ui_page>
+</record_update>

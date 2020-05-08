@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo_ODC_Vulnerabilities" max_length="40" name="x_405103_owaspauto_demo_odc_vulnerabilities" type="collection">
+        <element label="CVSSv2_Score" max_length="40" name="cvssv2_score" type="string"/>
+        <element label="CVSSv2_Severity" max_length="40" name="cvssv2_severity" type="string"/>
+        <element label="CVSSv2_Vector" max_length="40" name="cvssv2_vector" type="string"/>
+        <element label="CVSSv3_Score" max_length="40" name="cvssv3_score" type="string"/>
+        <element label="CVSSv3_Severity" max_length="40" name="cvssv3_severity" type="string"/>
+        <element label="CVSSv3_Vector" max_length="40" name="cvssv3_vector" type="string"/>
+        <element label="description" max_length="500" name="description" type="string"/>
+        <element label="Vulnerabilities_Name" max_length="40" name="name" type="string"/>
+        <element label="References" max_length="1000000" name="references" type="string"/>
+        <element label="Vulnerable Software &amp; Versions" max_length="1000000" name="vulnerable_software_versions" type="string"/>
+    </element>
+</database>

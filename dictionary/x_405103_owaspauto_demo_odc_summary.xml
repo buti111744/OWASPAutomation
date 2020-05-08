@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo_ODC_Summary" max_length="40" name="x_405103_owaspauto_demo_odc_summary" type="collection">
+        <element label="Confidence" max_length="40" name="confidence" type="string"/>
+        <element label="CVE Count" max_length="40" name="cve_count" type="string"/>
+        <element label="Dependency" max_length="1000000" name="dependency" type="string"/>
+        <element label="Evidence Count" max_length="40" name="evidence_count" type="string"/>
+        <element label="FromServer" max_length="50" name="fromserver" type="string"/>
+        <element label="Highest Severity" max_length="40" name="highest_severity" type="string"/>
+        <element label="Package" max_length="1000000" name="package" type="string"/>
+        <element label="Vulnerability IDs" max_length="1000000" name="vulnerability_ids" type="string"/>
+    </element>
+</database>

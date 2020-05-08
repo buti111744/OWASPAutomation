@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo_ODC_main" max_length="40" name="x_405103_owaspauto_demo_odc_main" type="collection">
+        <element label="DataTime" max_length="40" name="datatime" type="glide_date_time"/>
+        <element label="Evidence" max_length="1000000" name="evidence" type="string"/>
+        <element label="File Name" max_length="500" name="file_name" type="string"/>
+        <element label="File Path" max_length="500" name="file_path" type="string"/>
+        <element label="FromServer" max_length="50" name="fromserver" type="string"/>
+        <element label="Identifiers" max_length="1000000" name="identifiers" type="string"/>
+        <element label="License" max_length="1000000" name="license" type="string"/>
+        <element label="Related Dependencies" max_length="1000000" name="related_dependencies" type="string"/>
+        <element label="Vulnerabilities CVSS_Score" max_length="40" name="vulnerabilities_cvssv2_score" type="string"/>
+        <element label="Vulnerabilities CVSS_Severity" max_length="40" name="vulnerabilities_cvssv2_severity" type="string"/>
+        <element label="Vulnerabilities CVSS_Score_report" max_length="40" name="vulnerabilities_cvss_score_report" type="integer"/>
+        <element label="Vulnerabilities_Name" max_length="40" name="vulnerabilities_name" reference="x_405103_owaspauto_demo_odc_vulnerabilities" type="reference"/>
+    </element>
+</database>

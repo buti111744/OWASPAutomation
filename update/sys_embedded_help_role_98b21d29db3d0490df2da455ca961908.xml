@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_405103_owaspauto.test1_user" name="x_405103_owaspauto.test1_user">14b299eddbb90490df2da455ca961909</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-18 08:40:31</sys_created_on>
+        <sys_id>98b21d29db3d0490df2da455ca961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>14b299eddbb90490df2da455ca961909</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_embedded_help_role_98b21d29db3d0490df2da455ca961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-18 08:40:31</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

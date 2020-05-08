@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:45:48</sys_created_on>
+        <sys_id>09f60206db314890df2da455ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_405103_owaspauto_demo_odc_summary.x_405103_owaspauto.demo_odc_summary_user</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_security_acl display_value="x_405103_owaspauto_demo_odc_summary">8df60206db314890df2da455ca961979</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_09f60206db314890df2da455ca96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:45:48</sys_updated_on>
+        <sys_user_role display_value="x_405103_owaspauto.demo_odc_summary_user" name="x_405103_owaspauto.demo_odc_summary_user">a4f68e0adbfd0890df2da455ca9619f6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>4222d8bddb339f00ff27d5b0cf9619eb</instance_id>
+        <instance_name>dev69459</instance_name>
+        <name>sys_security_acl_role_09f60206db314890df2da455ca96197d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-20 01:45:48</sys_created_on><sys_id>09f60206db314890df2da455ca96197d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_405103_owaspauto_demo_odc_summary.x_405103_owaspauto.demo_odc_summary_user</sys_name><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_security_acl display_value="x_405103_owaspauto_demo_odc_summary">8df60206db314890df2da455ca961979</sys_security_acl><sys_update_name>sys_security_acl_role_09f60206db314890df2da455ca96197d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-20 01:45:48</sys_updated_on><sys_user_role display_value="x_405103_owaspauto.demo_odc_summary_user" name="x_405103_owaspauto.demo_odc_summary_user">a4f68e0adbfd0890df2da455ca9619f6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>244986455</payload_hash>
+        <record_name>x_405103_owaspauto_demo_odc_summary.x_405103_owaspauto.demo_odc_summary_user</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:45:48</sys_created_on>
+        <sys_id>cdf60206db314890df2da455ca96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f20fb76580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:45:48</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>09f602069b314890f01009a760fb8c7f</update_guid>
+        <update_guid_history>09f602069b314890f01009a760fb8c7f:244986455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_405103_owaspauto_demo_odc_summary.x_405103_owaspauto.demo_odc_summary_user">e9a88ac6db314890df2da455ca9619f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 01:53:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>40ba21e24d324be3aaeb722e8eb3c329</sys_id>
+        <sys_metadata>09f60206db314890df2da455ca96197d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_405103_owaspauto_demo_odc_summary.x_405103_owaspauto.demo_odc_summary_user</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent display_value="">8df60206db314890df2da455ca961979</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_09f60206db314890df2da455ca96197d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_09f60206db314890df2da455ca96197d">cdf60206db314890df2da455ca96197f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-20 01:53:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

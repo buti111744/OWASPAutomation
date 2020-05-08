@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>test_mitsumori1</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:48:56</sys_created_on>
+        <sys_id>f1c0f939db4f8014d3cef36f29961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_mitsumori1</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sp_page_f1c0f939db4f8014d3cef36f29961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:48:56</sys_updated_on>
+        <title>test_mitsumori1</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=f1c0f939db4f8014d3cef36f29961990"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>6f6b6d30db6e1f80ff27d5b0cf96194c</instance_id>
+        <instance_name>dev60580</instance_name>
+        <name>sp_page_f1c0f939db4f8014d3cef36f29961990</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>test_mitsumori1</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 08:48:56</sys_created_on><sys_id>f1c0f939db4f8014d3cef36f29961990</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test_mitsumori1</sys_name><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sp_page_f1c0f939db4f8014d3cef36f29961990</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 08:48:56</sys_updated_on><title>test_mitsumori1</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=f1c0f939db4f8014d3cef36f29961990"/></record_update>]]></payload>
+        <payload_hash>-1063338084</payload_hash>
+        <record_name>test_mitsumori1</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:48:56</sys_created_on>
+        <sys_id>31c0f939db4f8014d3cef36f29961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705ca2c5480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:48:56</sys_updated_on>
+        <type>Page</type>
+        <update_guid>f5c0f939864f8014dd79287a6574f693</update_guid>
+        <update_guid_history>f5c0f939864f8014dd79287a6574f693:-1063338084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test_mitsumori1">46d0fd39db4f8014d3cef36f299619e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:49:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>58d71b29b15c4ca8ab8fef34dfef16e4</sys_id>
+        <sys_metadata>f1c0f939db4f8014d3cef36f29961990</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_mitsumori1</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sp_page_f1c0f939db4f8014d3cef36f29961990</sys_update_name>
+        <sys_update_version display_value="sp_page_f1c0f939db4f8014d3cef36f29961990">31c0f939db4f8014d3cef36f29961994</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:49:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

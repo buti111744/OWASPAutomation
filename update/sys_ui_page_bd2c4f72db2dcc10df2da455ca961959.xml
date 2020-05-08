@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var app = angular.module('demoApp', []);
+app.controller('DemoController', function($scope) {
+
+    $scope.click = function() {
+        //クリックしたらレコード追加（追加後はフローが作動）
+        var FS = $scope.FromS; //取得先のサーバ名
+        var FD = $scope.FromD; //取得先のディレクトリ名
+        var ga = new GlideAjax('test111_ctrl');
+        ga.addParam('sysparm_name', 'insertTable');
+        ga.addParam('sysparm_froms', ""+FS);
+        ga.addParam('sysparm_fromd', ""+FD);
+        ga.getXML(Response);
+
+        function Response(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            alert("脆弱性診断を実行します。（5分程時間がかかります）");
+        }
+    };
+
+});]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_405103_owaspauto_test111.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<style type="text/css">
+		input.example1 { width: 50%; }
+		input.example2 { width: 150px; }
+		select { width: 250px; }
+		input[type="text"] {
+		width: 300px;
+		}
+	</style>
+	
+	<div ng-app="demoApp">
+		<div ng-controller="DemoController">
+			<p></p><p></p>
+			<form name ="inputForm">
+				<!--<p><h1>リカバリジョブ一覧</h1><br/></p> -->
+				<p>取得先のサーバー名:   <input type ="text" ng-init='FromS="10.1.8.15"' ng-model="FromS"/>  </p>
+				<p>取得先のディレクトリ名:   <input type ="text" ng-init='FromD="/opt/vuls/owasp/project/ManufacturingSpace-master.zip"' ng-model="FromD"/>  </p>
+				<p>   <input type ="button" value="脆弱性チェック実行" ng-click="click()"/></p>
+			</form>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>test111</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 04:31:17</sys_created_on>
+        <sys_id>bd2c4f72db2dcc10df2da455ca961959</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>test111</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_ui_page_bd2c4f72db2dcc10df2da455ca961959</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 08:20:38</sys_updated_on>
+    </sys_ui_page>
+</record_update>

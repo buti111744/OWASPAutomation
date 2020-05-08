@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <connection_type>http_connection</connection_type>
+        <id>x_405103_owaspauto.aaaa</id>
+        <multiple_connections>false</multiple_connections>
+        <name>aaaa</name>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 09:11:58</sys_created_on>
+        <sys_id>9ff88bf4db638090d3cef36f29961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_405103_owaspauto.aaaa</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_update_name>sys_alias_9ff88bf4db638090d3cef36f29961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 09:11:58</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</application>
+        <file_path/>
+        <instance_id>6f6b6d30db6e1f80ff27d5b0cf96194c</instance_id>
+        <instance_name>dev60580</instance_name>
+        <name>sys_alias_9ff88bf4db638090d3cef36f29961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><connection_type>http_connection</connection_type><id>x_405103_owaspauto.aaaa</id><multiple_connections>false</multiple_connections><name>aaaa</name><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-12 09:11:58</sys_created_on><sys_id>9ff88bf4db638090d3cef36f29961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_405103_owaspauto.aaaa</sys_name><sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package><sys_policy/><sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope><sys_update_name>sys_alias_9ff88bf4db638090d3cef36f29961945</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-12 09:11:58</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>200758745</payload_hash>
+        <record_name>x_405103_owaspauto.aaaa</record_name>
+        <reverted_from/>
+        <source>22ca6889dba90010df2da455ca961977</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 09:11:58</sys_created_on>
+        <sys_id>3d090bb4db638090d3cef36f29961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ce03c62a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 09:11:58</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>35090bb4b763809016949d5307826147</update_guid>
+        <update_guid_history>35090bb4b763809016949d5307826147:200758745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 09:14:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>248c7d8a08a54e6487d0e3363c6d3a10</sys_id>
+        <sys_metadata>9ff88bf4db638090d3cef36f29961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_405103_owaspauto.aaaa</sys_name>
+        <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+        <sys_scope_delete display_value="">00fe64d2e223444094cc93440e24a400</sys_scope_delete>
+        <sys_update_name>sys_alias_9ff88bf4db638090d3cef36f29961945</sys_update_name>
+        <sys_update_version display_value="sys_alias_9ff88bf4db638090d3cef36f29961945">3d090bb4db638090d3cef36f29961947</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 09:14:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

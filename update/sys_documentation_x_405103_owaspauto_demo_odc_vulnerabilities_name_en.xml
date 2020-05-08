@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Vulnerabilities_Name" language="en" table="x_405103_owaspauto_demo_odc_vulnerabilities">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Vulnerabilities_Name</label>
+            <language>en</language>
+            <name>x_405103_owaspauto_demo_odc_vulnerabilities</name>
+            <plural>Vulnerabilities_Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-19 09:01:01</sys_created_on>
+            <sys_id>52f0eef5db35c490df2da455ca96190c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Vulnerabilities_Name</sys_name>
+            <sys_package display_value="OWASPAutomation" source="x_405103_owaspauto">2aca6889dba90010df2da455ca961974</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OWASPAutomation">2aca6889dba90010df2da455ca961974</sys_scope>
+            <sys_update_name>sys_documentation_x_405103_owaspauto_demo_odc_vulnerabilities_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-23 00:59:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

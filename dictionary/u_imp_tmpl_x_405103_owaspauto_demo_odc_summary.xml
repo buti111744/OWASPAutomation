@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 405103 Owaspauto Demo Odc Summary" max_length="40" name="u_imp_tmpl_x_405103_owaspauto_demo_odc_summary" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Confidence" label="Confidence" max_length="40" name="u_confidence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CVE Count" label="CVE Count" max_length="40" name="u_cve_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dependency" label="Dependency" max_length="1000000" name="u_dependency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Evidence Count" label="Evidence Count" max_length="40" name="u_evidence_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FromServer" label="FromServer" max_length="50" name="u_fromserver" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Highest Severity" label="Highest Severity" max_length="40" name="u_highest_severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Package" label="Package" max_length="1000000" name="u_package" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vulnerability IDs" label="Vulnerability IDs" max_length="1000000" name="u_vulnerability_ids" type="string"/>
+    </element>
+</database>
